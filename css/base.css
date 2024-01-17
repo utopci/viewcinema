@@ -14,11 +14,11 @@
     --grey: #C8C8C8;
     --black: #000;
     --CB: 'CB', sans-serif;
-    --CR: 'CB', sans-serif;
-    --MB: 'CB', sans-serif;
-    --MR: 'CB', sans-serif;
-    --RR: 'CB', sans-serif;
-    --RM: 'CB', sans-serif;
+    --CR: 'CR', sans-serif;
+    --MB: 'MB', sans-serif;
+    --MR: 'MR', sans-serif;
+    --RR: 'RR', sans-serif;
+    --RM: 'RM', sans-serif;
 }
 
 body {
@@ -31,6 +31,26 @@ body {
     max-width: 1140px;
     width: 100%;
     height: 100%;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    background: var(--orange);
+    color: var(--black);
+    font-family: var(--RM);
+    font-size: 14px;
+    font-weight: 500;
+    width: 166px;
+    height: 46px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.btn:hover {
+    background: var(--bg);
+    color: #fff;
 }
